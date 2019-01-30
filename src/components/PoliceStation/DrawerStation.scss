@@ -1,0 +1,38 @@
+//侧边栏样式
+.pall-tab-list{
+    list-style: none;
+    .ant-drawer-body{
+        padding:10px;
+    }
+}
+
+.pall-tab-item{
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid #e6e7e8;
+  padding:5px 0;
+  cursor: pointer;
+}
+.pall-tab-child{
+    flex:1;
+    display:none;
+    text-align:right;
+    button{
+        margin-left:5px;
+    }
+}
+.pall-tab-item:hover{
+    background: #f4f4f4;
+    .pall-tab-child{
+        display: inline-block;
+    }
+}
+.pall-tab-avatar{
+    font-size:22px;
+    width:30px;
+}
+.pall-tab-title{
+    font-weight: bold;
+    font-size: 16px;
+    color:666;
+}

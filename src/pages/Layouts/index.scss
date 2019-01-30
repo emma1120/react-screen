@@ -1,0 +1,25 @@
+.layout-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #eee;
+    .main-box{
+       width:100%;
+       flex:auto;
+       display: flex;
+       flex-direction: row;
+       .main-left{
+        width:256px;
+        min-width: 256px;
+        flex:0 0 256px;
+        background: #fff;
+   
+       }
+       .main-right{
+        flex:auto;
+        background:#eee;
+       }
+
+    }
+
+}

@@ -1,0 +1,27 @@
+.screen-header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+    display: flex;
+    .header-bg{
+        flex:1;
+        height:40px; 
+    }
+    .header-title{
+        width:460px;
+        height:80px;
+        text-align: center;
+        padding-top:10px;
+        img{
+            margin-right:5px;
+        }
+        .txt{
+            font-size: 26px;
+            color:#edf8ff;
+            font-weight: bold;
+        }
+    }
+ }
+ 
